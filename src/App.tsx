@@ -1,13 +1,12 @@
-import scss from './App.module.scss'
+import Footer from "./components/layout/footer/Footer";
+import Header from "./components/layout/header/Header";
+
 const App = () => {
   return (
-    <section className={scss.App}>
-      <div className='container'>
-        <div className={scss.content}>
-          App
-        </div>
-      </div>
-    </section>
+    <div className="app">
+      <Header />
+      <Footer />
+    </div>
   );
 };
 
