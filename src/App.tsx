@@ -1,13 +1,10 @@
-import scss from './App.module.scss'
+import Landing from "./components/pages/landing/Landing";
+
 const App = () => {
   return (
-    <section className={scss.App}>
-      <div className='container'>
-        <div className={scss.content}>
-          App
-        </div>
-      </div>
-    </section>
+    <div>
+      <Landing/>
+    </div>
   );
 };
 
