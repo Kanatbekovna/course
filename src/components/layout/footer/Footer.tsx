@@ -9,11 +9,11 @@ const Footer = () => {
             <p>
               (Название)— это частная виртуальная сеть <br /> с уникальными
               функциями и высоким <br /> уровнем безопасности.
-              <div className={scss.rounds}>
-                <div className={scss.round}></div>
-                <div className={scss.round}></div>
-                <div className={scss.round}></div>
-              </div>
+              <span className={scss.rounds}>
+                <span className={scss.round}></span>
+                <span className={scss.round}></span>
+                <span className={scss.round}></span>
+              </span>
             </p>
             <h5>
               ©2020Lasles<span>VPN</span>
