@@ -1,13 +1,15 @@
 import type { FC } from "react";
-import scss from "./Landing.module.scss";
+import Rocket from "./rocket/Rocket";
+import Images from "./images/Images";
+import Founder from "./founder/Founder";
 
 const Landing: FC = () => {
   return (
-    <section className={scss.Landing}>
-      <div className="container">
-        <div className={scss.landing}></div>
-      </div>
-    </section>
+    <div>
+      <Rocket />
+      <Images />
+      <Founder />
+    </div>
   );
 };
 

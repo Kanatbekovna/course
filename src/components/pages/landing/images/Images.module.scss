@@ -1,0 +1,30 @@
+.Images {
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    @media (max-width: 1150px) {
+      gap: 10px;
+    }
+    @media (max-width: 1040px) {
+      flex-wrap: wrap;
+    }
+
+    .img1 {
+      margin-top: 350px;
+      @media (max-width: 800px) {
+        margin: 0;
+      }
+    }
+    .img2 {
+      margin-top: 350px;
+      @media (max-width: 1040px) {
+        margin: 0;
+      }
+      @media (max-width: 800px) {
+        margin: 0;
+      }
+    }
+  }
+}

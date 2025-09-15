@@ -1,0 +1,49 @@
+.Rocket {
+  padding: 80px 0;
+  .rocket {
+    position: relative;
+    h1 {
+      font-weight: 700;
+      font-size: clamp(1.25rem, 0.964rem + 1.43vw, 2.25rem);
+      line-height: 52px;
+      letter-spacing: 0.1px;
+      font-family: "Montserrat", sans-serif;
+      @media (max-width: 535px) {
+        font-size: 20px;
+        line-height: 32px;
+      }
+      @media (max-width: 470px) {
+        font-size: 16px;
+        line-height: 32px;
+      }
+      @media (max-width: 385px) {
+        font-size: 12px;
+        line-height: 22px;
+      }
+    }
+    img {
+      z-index: -1;
+      width: 550px;
+      top: -100px;
+      right: 100px;
+      position: absolute;
+      @media (max-width: 1135px) {
+        right: 0;
+      }
+      @media (max-width: 1000px) {
+        right: -100px;
+      }
+      @media (max-width: 850px) {
+        position: static;
+        width: 70%;
+      }
+    }
+    @media (max-width: 850px) {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

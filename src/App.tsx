@@ -6,9 +6,9 @@ import { Route, Routes } from "react-router-dom";
 import Landing from "./components/pages/landing/Landing";
 
 interface IRouter {
-  id: number;
-  path: string;
-  element: ReactElement;
+	id: number
+	path: string
+	element: ReactElement
 }
 const App = () => {
   const router: IRouter[] = [
@@ -36,4 +36,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App
